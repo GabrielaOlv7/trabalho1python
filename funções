@@ -1,0 +1,52 @@
+def imprime():
+print("isso é uma função")
+imprime()
+
+#com parametro
+def imprime(n):
+    print(n)
+
+imprime("qualquer coisa!")
+
+#com retorno
+def potencia(n):
+    return n * n
+
+x = potencia(10)
+print(x)
+100
+
+#com valor default
+def intervalo(inic=1,fim=10):
+    for n in range(inic, fim+1):
+        print(n)
+
+x = intervalo(0,15)
+y = intervalo()
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
