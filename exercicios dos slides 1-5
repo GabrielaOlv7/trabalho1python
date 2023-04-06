@@ -1,0 +1,51 @@
+1)
+nota1 = float(input("Digite a primeira nota da prova: "))
+nota2 = float(input("Digite a segunda nota da prova: "))
+trabalho = float(input("Digite a nota do trabalho: "))
+mediafinal = (nota1 + nota2) * 0.7 + trabalho * 0.3 
+print("A média final do aluno é: ", mediafinal)
+
+2)
+angulo = float(input("Digite um ângulo em graus: "))
+
+# Convertendo o ângulo para radianos
+angulo_radianos = angulo * 3.14159 / 180
+
+# Determinando o quadrante
+if angulo_radianos >= 0 and angulo_radianos < 1.5708:
+    print("O ângulo está no primeiro quadrante.")
+elif angulo_radianos >= 1.5708 and angulo_radianos < 3.14159:
+    print("O ângulo está no segundo quadrante.")
+elif angulo_radianos >= 3.14159 and angulo_radianos < 4.71239:
+    print("O ângulo está no terceiro quadrante.")
+else:
+    print("O ângulo está no quarto quadrante.")
+    
+3)primeirotermo = 2
+razao = 3
+ultimotermo = 100
+
+quantidadetermos = (ultimotermo - primeirotermo) // razao + 1
+soma = (primeirotermo + ultimotermo) * quantidadetermos // 2
+
+print("A soma dos elementos da P.A. é:", soma)
+
+4)quantidadealunos = int(input("Digite a quantidade de alunos: "))
+notas = []
+for i in range(quantidadealunos):
+ nota = float(input("Digite a nota do aluno {}: ".format(i+1)))
+ notas.append(nota)
+media = sum(notas) / len(notas)
+print("A média da turma é:", media)
+
+5)matriz = [[0, 0, 0],
+          [0, 0, 0],
+          [0, 0, 0]]
+for i in range(3):
+    for j in range(3):
+        matriz[i][j] = int(input("Digite o valor para a posição [{},{}]: ".format(i, j)))
+
+soma = 0
+for i in range(3):
+    soma += matriz[i][i]
+print("A soma da diagonal principal da matriz é:", soma)
