@@ -1,0 +1,73 @@
+#Cria variável do tipo inteiro
+x = 50
+print(x)
+
+#Cria variável do tipo float
+y = 7.15
+print(y)
+
+#Cria variável do tipo string
+m = "ola"
+m = 'ola'
+print(m)
+
+#Cria variável do tipo lógica
+w = True  
+y = False
+print(w)
+50
+7.15
+ola
+True
+
+#calculadora
+x = 5
+y = 10
+z = 150
+w = (x + y) * z / 100
+print(w)
+22.5
+
+print("aprender python é importante ")
+aprender python é importante 
+
+#exibir texto no console
+print("ola mundo ")
+print(x)
+print("Texto e duas variáveis: ", x ,", ", z)
+
+#verificar tipo
+print(type(3.5))
+print(type(m))
+<class 'float'>
+<class 'str'>
+#entrada de dados
+print("Informe o valor: 150")
+i = input()
+#mostra tipo string
+print(type(i))
+<class'str'>
+
+#entrada de valor com msg separada e junto
+print("Informe um valor: 88")
+i = input()
+# ou
+i = input("Informe um valor:36 ")
+
+#conversão de valores para inteiro
+var = input("Informe um valor: 999")
+print(type(var))
+var = int(var)
+print(type(var))
+<class'str'>
+<class'int'>
+#para float
+var = input("Informe um valor: 999")
+print(type(var))
+var = float(var)
+print(type(var))
+<class'str'>
+<class'float'>
+# Este texto é um comentário
+X = 200  # a partir daqui é um comentário
+ 
