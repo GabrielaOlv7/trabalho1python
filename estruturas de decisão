@@ -1,0 +1,23 @@
+nota = 6
+if nota >= 6:
+	print("Aprovado")
+	print("Parabéns!")
+else:
+	print("Reprovado")
+  
+#só mudar o valor da variável
+nota = 4
+if nota >=6:
+	print("Aprovado")
+else:
+	print("Reprovado")
+  
+#Testar com 4,5 e 6
+nota = 6
+if nota <= 4:
+	print("Reprovado")
+elif nota > 4 and nota <=5:
+	print("Exame")
+else:
+	print("Aprovado")
+    
